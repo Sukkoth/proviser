@@ -1,0 +1,22 @@
+{
+  "name": "@proviser/proviser",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "proviser": "./src/index.ts"
+  },
+  "scripts": {
+    "link": "bun link && bun link proviser",
+    "dev": "bun run src/index.ts",
+    "lint": "eslint --max-warnings 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/bun": "latest",
+    "eslint": "^9.39.1",
+    "typescript": "5.9.2"
+  }
+}
