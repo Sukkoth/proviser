@@ -1,1 +1,1 @@
-# Proviser: A barely usable provisioning tool for local development environments
+# Proviser: A barely usable, one command to fire up your entire microservice world.
