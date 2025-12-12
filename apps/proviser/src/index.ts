@@ -1,2 +1,2 @@
 #! /usr/bin/env bun
-import "./command.ts";
+import "./cli/commands";
