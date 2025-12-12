@@ -1,0 +1,7 @@
+apps:
+  sample:
+    # cwd: ./sample-server
+    # command: bun run index.js
+    needs:
+      echo:
+        command: echo "Hello World"
