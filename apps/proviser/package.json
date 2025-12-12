@@ -11,7 +11,9 @@
     "dev": "bun run src/index.ts",
     "lint": "eslint --max-warnings 0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
