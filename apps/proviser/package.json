@@ -12,6 +12,7 @@
     "lint": "eslint --max-warnings 0"
   },
   "dependencies": {
+    "@proviser/safe-call": "*",
     "commander": "^14.0.2"
   },
   "devDependencies": {
