@@ -1,8 +1,8 @@
 import { Command } from "commander";
 
-import initCommand from "./init";
-import listAppsCommand from "./list-apps";
-import serviceCommand from "./service";
+import initCommand from "./init-command";
+import listAppsCommand from "./list-apps-command";
+import serviceCommand from "./service-command";
 
 const program = new Command();
 
